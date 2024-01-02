@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 0 10px; */
+    /* min-height: 100vh; */
+    margin-top: 200px;
+    margin-left: 33%;
+    background-color: rgb(217, 199, 234);
+}
+.container {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 106, 238);
+    max-width: 600px;
+    /* margin-left: 400px;
+    margin-top: 150px; */
+    min-height: 300px;
+    border-radius: 10px;
+    /* padding: 40px; */
+    padding-left: 20px;
+    box-shadow: 0 10px 30px black;
+    padding-bottom: 20px;
+}
+.title {
+    justify-content: center;
+    font-size: 25px;
+    /* align-items: center; */
+    padding: 15px;
+    display: flex;
+}
+.sub-title1 {
+    padding-bottom: 15px;
+    /* margin-left: 2000px; */
+    font-size: 20px;
+}
+.sub-title2 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    /* margin-left: 2000px; */
+    font-size: 20px;
+}
+input {
+    justify-content: center;
+    min-height: 25px;
+    min-width: 200px;
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+}
+select {
+    min-height: 25px;
+    min-width: 200px;
+    display: flex;
+    /* padding: 0 10px; */
+}
+.form {
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    width: 144px;
+    padding: 7px 20px;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover {
+    /* color: blueviolet; */
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.output table {
+    width: 40vw;
+    text-align: center;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.output {
+    display: none;
+}
